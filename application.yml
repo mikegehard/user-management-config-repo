@@ -1,11 +1,4 @@
 # The configurations in this file are shared across all applications.
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://userManagementServiceDiscovery.192.168.11.11.xip.io/eureka/
-  # Allow the services to register more quickly in a demo environment.
-  instance:
-    leaseRenewalIntervalInSeconds: 1
 
 # Turns off security that Spring Cloud Services adds
 # when it pulls in Spring Security
